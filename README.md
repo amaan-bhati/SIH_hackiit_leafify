@@ -15,6 +15,13 @@ Leafify is a web application developed by team HacKiiT, it serves purpose of ide
 2. the application will identify and produce name and additional information of the identified herb.
 
 
+<img src="https://github.com/amaan-bhati/SIH_hackiit_leafify/assets/110015899/dddd5ae5-869b-4b1f-ac85-ddcb7df28f06" height=200 width=300>
+<br>
+<img src="https://github.com/amaan-bhati/SIH_hackiit_leafify/assets/110015899/36d77e40-411f-4165-845a-41b1964416b9" height=300 width=200>
+
+
+
+
 ## Tech stack
 
 - Pytorch- used for applications such as computer vision and natural language processing.
