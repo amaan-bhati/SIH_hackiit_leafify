@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# What is LEAFify? 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Leafify is a web application developed by team HacKiiT, it serves purpose of identifying medicinal plants using image processing and ML algorithm.
 
-## Available Scripts
+## Need for LEAFify
 
-In the project directory, you can run:
+..........
 
-### `npm start`
+## How to use LEAFify?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[click here](http://leafify.framer.ai) to redirect to our website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. upload the image of the herb either using camera lens or from your device
 
-### `npm test`
+2. the application will identify and produce name and additional information of the identified herb.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Tech stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Pytorch- used for applications such as computer vision and natural language processing.
+We opted to use this particular machine learning framework because of its ability to customise
+- Matplotlib, Numpy, Torch - Built in pytorch dependencies, that we are using to train   our model.
+- Tailwind CSS, Framer, GSAP-  For styling and animation
+- ReactJS/NextJS, NodeJS/BunJS- Integration of multiple text tags.
+- Tensorflow JS - For the Ml integration
+- OPENAI - For integrating chatgpt features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* identifies the plant and generates its scientific name
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## work in progress
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* additional data regarding the plant including but not limited to medicinal uses, regional availabilty
+* generation of 3D models of the identified herb
+* (reccomendation of nearest match if herb not in dataset?)
