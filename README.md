@@ -4,7 +4,7 @@ Leafify is a web application developed by team HacKiiT, it serves purpose of ide
 
 ## Need for LEAFify
 
-..........
+Our website, that is Leafify aims to identify herbs and plants with highest accuracy possible in real time. On scaning the plant, our pretrained ML algorithm detects the species and gives the result to the user along with the plant's regional availability and features.We have devoted our time and efforts to increase its accuracy since we believe that accuracy is the key to save the time of our botanists and herbalists.Identifying a plant accurately can not only cost them their precious time but also our resources which could be put to better use.They can hereby utilize this time to research more on this field and come up with solutions to the unanswered medical problems.Also, since our website provides a detailed result on the identified plant, it also saves a lot of confusion which can be caused due to human error. We also have future plans to integrate a 3d Model system in our website. This means that as soon as the plant is identified, we will provide a 3d model of the same species in real time. This will help the user get a better understanding of what a healthy species of the same would look like. We also aim to help our medical students with this since they will be able to learn a lot about plants through our website and the integrated 3d model that we plan to use.
 
 ## How to use LEAFify?
 
