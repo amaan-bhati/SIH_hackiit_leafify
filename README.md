@@ -2,7 +2,7 @@
 
 Leafify is a web application developed by team HacKiiT, it serves purpose of identifying medicinal plants using image processing and ML algorithm.
 
-## Need for LEAFify
+## Our Aim
 
 
 Our website, that is Leafify aims to identify herbs and plants with highest accuracy possible in real time. On scaning the plant, our pretrained ML algorithm detects the species and gives the result to the user along with the plant's regional availability and features.We have devoted our time and efforts to increase its accuracy since we believe that accuracy is the key to save the time of our botanists and herbalists.Identifying a plant accurately can not only cost them their precious time but also our resources which could be put to better use.They can hereby utilize this time to research more on this field and come up with solutions to the unanswered medical problems.Also, since our website provides a detailed result on the identified plant, it also saves a lot of confusion which can be caused due to human error. We also have future plans to integrate a 3d Model system in our website. This means that as soon as the plant is identified, we will provide a 3d model of the same species in real time. This will help the user get a better understanding of what a healthy species of the same would look like. We also aim to help our medical students with this since they will be able to learn a lot about plants through our website and the integrated 3d model that we plan to use.
@@ -23,6 +23,15 @@ Our website, that is Leafify aims to identify herbs and plants with highest accu
 
 
 
+## features
+
+* identifies the plant and generates its scientific name
+
+## work in progress
+
+* additional data regarding the plant including but not limited to medicinal uses, regional availabilty
+* generation of 3D models of the identified herb
+
 
 ## Tech stack
 
@@ -34,13 +43,14 @@ We opted to use this particular machine learning framework because of its abilit
 - Tensorflow JS - For the Ml integration
 - OPENAI - For integrating chatgpt features
 
+Three machine learning models, ResNet, VGG16, and MobileNet, were used, of which MobileNet was the most compatible. MobileNet was able to maintain a uniform error loss with every iteration, while ResNet and VGG16 showed a sharp drop.
+In addition to being faster and smaller, MobileNet's model works well with augmentation, which is the process of creating new training samples from existing ones. Its lightweight nature creates a base for creating mobile apps, rather than restricting us to web-based platforms.
+
+<br>
 
 
-## features
+<img src="https://github.com/amaan-bhati/SIH_hackiit_leafify/assets/110015899/8b4a8112-d850-452c-bc9c-0572e251d23c" height=300 width=400>
+<img src="https://github.com/amaan-bhati/SIH_hackiit_leafify/assets/110015899/986da257-e042-4722-a093-e6fa1e4be1c2" height=300 width=400>
 
-* identifies the plant and generates its scientific name
 
-## work in progress
 
-* additional data regarding the plant including but not limited to medicinal uses, regional availabilty
-* generation of 3D models of the identified herb
