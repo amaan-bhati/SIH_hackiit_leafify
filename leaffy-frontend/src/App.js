@@ -6,6 +6,7 @@ import About from './components/About';
 import HowToUse from './components/HowToUse';
 import Scan from './components/Scan';
 import ContactUs from './components/ContactUs.js';
+import RealTimeScan from './components/RealTimeScan';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/how-to-use" component={HowToUse} />
         <Route path="/scan" component={Scan} />
         <Route path="/contact-us" component={ContactUs} />
+        <Route path="/realtimescan" component={RealTimeScan} />
       </Switch>
     </Router>
   );
